@@ -1,11 +1,13 @@
 import React from 'react'
+import GlobalStyle from './globalStyles'
+import { BrowserRouter as  Router } from 'react-router-dom'
 import { Header } from './Components'
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <Router>
+            <GlobalStyle />
+            <Header />  
+     </Router>
   )
 }
 

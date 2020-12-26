@@ -1,0 +1,13 @@
+.header__logo {
+    color: #fff;
+    justify-content:flex-start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__LogoIcon {
+    margin-right: 0.5rem;
+}
